@@ -16,11 +16,6 @@
     padding-left: $spacer / 2;
     padding-right: $spacer / 2;
 
-    a {
-      font-weight: bold;
-      //color: $text-color;
-    }
-
     a:hover, a:focus {
       outline: none;
       border-bottom: 1px solid $border-color;
