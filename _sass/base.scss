@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background: $background-color;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+}
+
+a:hover, a:focus {
+  border-bottom: 1px solid $link-color;
+}
