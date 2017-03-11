@@ -1,5 +1,7 @@
 
+// ===================================
 // Colors
+// ===================================
 $background-color: #6CD1EA;
 $frame-color-start: #6A3817;
 $frame-color-end: lighten($frame-color-start, 2%);
@@ -11,7 +13,10 @@ $text-color: rgba(255,255,255,0.75);
 $link-color: rgba(255, 255, 255, 0.8);
 $border-color: rgba(255,255,255,0.2);
 
+// ===================================
 // Fonts
+// ===================================
+$font-family: sans-serif;
 
 // ===================================
 // Spacing
