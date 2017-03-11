@@ -3,7 +3,8 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 2px;
-  background: $frame-color-start repeating-linear-gradient(15deg, $frame-color-start 10px, $frame-color-end 15px);
+  background-color: $frame-color-start;
+  background-image: repeating-radial-gradient(circle, $frame-color-start, $frame-color-end 5px, $frame-color-start 7px, $frame-color-end 12px);
   padding: $frame-padding;
   margin-top: $frame-margin;
   margin-bottom: $frame-margin;
@@ -18,4 +19,6 @@
   height: 100%;
   min-height: calc(100vh - #{$frame-margin * 2} - #{$frame-padding * 2});
   box-shadow: $content-background-shadow;
+  //box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  border-radius: 2px;
 }

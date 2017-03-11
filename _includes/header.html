@@ -1,11 +1,14 @@
 <header class="site-header" role="banner">
-  <h1 class="site-header__title">{{site.title}}</h1>
+  {% if page.title %}
+    <h1 class="h1 site-header__title">{{page.title}}</h1>
+  {% else %}
+    <h1 class="h1 site-header__title">{{site.title}}</h1>
+  {% endif %}
   <nav class="site-nav">
     <ul class="site-nav__list">
-      <li class="site-nav__item"><a href="Projects">Projects</a></li>
-      <li class="site-nav__item"><a href="Projects">Skills</a></li>
-      <li class="site-nav__item"><a href="Projects">About Me</a></li>
-      <li class="site-nav__item"><a href="Projects">Blog</a></li>
+      <li class="site-nav__item"><a href="/">Projects</a></li>
+      <li class="site-nav__item"><a href="/about">About Me</a></li>
+      <li class="site-nav__item"><a href="/">Blog</a></li>
     </ul>
   </nav>
 </header>

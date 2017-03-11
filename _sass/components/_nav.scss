@@ -1,8 +1,10 @@
 .site-nav {
   border-top: 2px solid $border-color;
   border-bottom: 2px solid $border-color;
-  height: 2em;
   text-align: center;
+
+  padding-top: $spacer;
+  padding-bottom: $spacer;
 
   &__list {
     margin-left: auto;

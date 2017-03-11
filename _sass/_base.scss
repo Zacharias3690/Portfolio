@@ -1,0 +1,20 @@
+body {
+  font-family: $font-family;
+  //background: $background-color;
+  background-color: $background-color;
+  //background-image: url(https://static.pexels.com/photos/1486/wood-pattern-ground-parquet-floor.jpg);
+  background-size: cover;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+}
+
+a:hover, a:focus {
+  border-bottom: 1px solid $link-color;
+}
+
+.site-footer, .site-content {
+  padding: $spacer;
+}
