@@ -3,15 +3,15 @@ layout: page
 title: About me
 permalink: /about/
 ---
-## Here's a level 2 heading
-I'm a front end web developer with a passion for building reusable, scalable UI frameworks. I enjoy working with designers to make their designs a reality while maintaining focus on accessibility and performance.
 
-## and another
-some filler text yo
+## Me
+My name is Zach Barnes. I have a ~~obesssion~~ passion for coffee and food. I'm a front end web developer currently based in Charlotte, but I love
+Austin, Denver, and Los Angeles.
 
-working with designers
-strong HTML, CSS, Javascript fundamentals
-some experience
-- leading teams
-- architecture design
-- speaking with clients
+## What I do
+I have a passion for architecting and building UI frameworks. I enjoy the back and forth between design and development,
+and the ability to make a designers creations come to life.
+
+## My skills
+I would consider myself an expert in Javascript, and very strong in CSS and HTML. Recently I've been building in Vue.js,
+but I have 4 years experience with Angular, and have built some side projects in React.
