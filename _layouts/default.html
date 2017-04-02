@@ -1,30 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
     <div class="hero">
-      <div class="business-card">
-        <!-- Move to config? -->
-        <img src="assets/images/profile.jpg" alt="profile picture" class="business-card__image">
-        <div class="business-card__contact">
-          <h1 class="business-card__name">Zach Barnes</h1>
-          <p class="business-card__title">Front End Developer</p>
-          <div class="business-card__email">
-            <a mailto="Zacharias3690@gmail.com">Zacharias3690@gmail.com</a>
-          </div>
-          <div class="business-card__phone">
-            <a href="">(512) 587-1596</a>
-          </div>
+        <div class="card">
+            <h1 class="card__title">Zach Barnes</h1>
+            <p class="card__sub-title">Front End Developer</p>
         </div>
-
-        <ul class="business-card__social-media">
-          <li class="business-card__github">GH</li>
-          <li class="business-card__linked-in">LI</li>
-        </ul>
-      </div>
     </div>
-  </body>
+</body>
 
 </html>

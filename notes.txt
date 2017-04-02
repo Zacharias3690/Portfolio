@@ -1,0 +1,11 @@
+content spacing
+ - paragraph
+ 	- 1.2em line height
+ 	- 16px default font size
+ 	- .6em padding top and bottom
+ 	- sans-serif
+ - heading
+ 	- 1.2em padding top on headers
+ 	- serif?
+
+ All components on the page should have a height divisible by the height of one line of paragraph text.
