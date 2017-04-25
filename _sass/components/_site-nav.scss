@@ -1,0 +1,39 @@
+.site-nav {
+  height: $nav-height;
+  background: $c-primary;
+
+  &__list {
+    margin-left: $spacing / 2;
+    margin-right: $spacing / 2;
+    height: 100%;
+  }
+
+  &__item {
+    display: block;
+    float: left;
+    min-width: 60px;
+    height: 100%;
+    transition: background 200ms $ease-out;
+    line-height: 1;
+    text-align: center;
+    padding: 25px 12px; // 23 from (nav-height - font-size) / 2
+
+    &.active, &:hover {
+      background: mix(black, $c-primary, 10%);
+    }
+
+    //a {
+      color: $c-text-white;
+      font-size: 0.875em;
+
+      @media screen and (min-width: $bp-mobile) {
+        font-size: 1em;
+      }
+    //}
+
+    @media screen and (min-width: $bp-mobile) {
+      min-width: 90px;
+      padding: 24px 12px;
+    }
+  }
+}

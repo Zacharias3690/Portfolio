@@ -1,21 +1,5 @@
-p {
-  font-family: Georgia, serif;
-  line-height: 1.5em;
-  padding-top: .75em;
-  padding-bottom: .75em;
+html, body {
+  font-size: 100%;
+  background: $c-background;
+  font-family: 'Roboto', sans-serif;
 }
-
-h1,h2,h3,h4,h5,h6 {
-  letter-spacing: 0.05em;
-  font-family: Arial, sans-serif;
-  padding-top: 1.2em;
-  padding-bottom: .6em;
-}
-
-h1 {
-  font-size: 2em;
-  text-transform: uppercase;
-}
-
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.17em; }

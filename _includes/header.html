@@ -1,14 +1,13 @@
 <header class="site-header" role="banner">
-  {% if page.title %}
-    <h1 class="h1 site-header__title">{{page.title}}</h1>
-  {% else %}
-    <h1 class="h1 site-header__title">{{site.title}}</h1>
-  {% endif %}
-  <nav class="site-nav">
-    <ul class="site-nav__list">
-      <li class="site-nav__item"><a href="/">Projects</a></li>
-      <li class="site-nav__item"><a href="/about">About Me</a></li>
-      <li class="site-nav__item"><a href="/">Blog</a></li>
-    </ul>
-  </nav>
+    <nav class="site-nav">
+        <ul class="site-nav__list">
+            {% for link in site.navigation %}
+                {% if page.url == link.url %}
+                    <li><a class="site-nav__item active" href="{{ link.url }}">{{ link.text }}</a></li>
+                {% else %}
+                    <li><a class="site-nav__item" href="{{ link.url }}">{{ link.text }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
 </header>

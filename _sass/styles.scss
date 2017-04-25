@@ -1,11 +1,8 @@
 @import 'reset';
 @import 'variables';
 @import 'base';
-// Base
-
+@import 'utilities';
 
 // Components
-@import 'components/post';
-
-//Pattern lab
-@import 'pattern-lab';
+@import 'components/fonts';
+@import 'components/site-nav';
