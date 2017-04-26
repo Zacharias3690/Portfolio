@@ -1,0 +1,33 @@
+.hero {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+
+  background: linear-gradient(-15deg, $c-background 20%, $c-primary 0%) $c-primary;
+
+  @media screen and (min-width: $bp-mobile) {
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+
+    background: linear-gradient(-20deg, $c-background 50%, $c-primary 50%) $c-primary;
+  }
+
+  &__title {
+    margin: 0;
+    color: $c-text-white;
+  }
+
+  &__sub-title {
+    margin: 0;
+    letter-spacing: 0.05em;
+    color: $c-text-white;
+  }
+}
+
+.hero--large {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}

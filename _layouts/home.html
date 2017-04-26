@@ -4,22 +4,26 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+    <div class="hero hero--large">
+        <h1 class="hero__title">Zach Barnes</h1>
+        <p class="hero__sub-title h2">Front End Web Developer</p>
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <div class="post__content">
+        <h2>Blog posts</h2>
+        <ul class="blog-post-list">
+            <div class="blog-post">
+                <div class="blog-post__image"></div>
+                <h3 class="blog-post__title">Blog post</h3>
+                <p class="blog-post__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris eu pretium libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris eu pretium libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris eu pretium libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris eu pretium libero.
+                </p>
+            </div>
+        </ul>
+    </div>
 
 </div>
