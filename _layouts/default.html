@@ -7,6 +7,19 @@
     {% include header.html %}
     {% include social.html %}
     {{ content }}
-</body>
 
+    <script>
+        var siteNav = document.querySelector('.site-nav');
+
+        if(siteNav) {
+            window.addEventListener('scroll', function() {
+               if(document.body.scrollTop > 0) {
+                   siteNav.classList.add('site-nav--scrolled');
+               } else {
+                   siteNav.classList.remove('site-nav--scrolled');
+               }
+            });
+        }
+    </script>
+</body>
 </html>
