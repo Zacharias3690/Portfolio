@@ -18,6 +18,8 @@
     border-top: 1px solid $c-dark-gray;
     background: $c-background;
 
+    transition: opacity 500ms $ease-out 500ms;
+
     @media screen and (min-width: $bp-tablet) {
         height: auto;
         left: 24px;
@@ -61,4 +63,9 @@
             width: 32px;
         }
     }
+}
+
+// Animations
+.is-loading .social {
+    opacity: 0;
 }

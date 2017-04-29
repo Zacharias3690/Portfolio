@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {% include head.html %}
 
@@ -10,7 +10,9 @@
     {{ content }}
 
     {% include footer.html %}
-    <script>
+
+    <!-- scroll watcher -->
+    <script type="text/javascript">
         var siteNav = document.querySelector('.site-nav');
 
         if(siteNav) {
@@ -22,6 +24,16 @@
                }
             });
         }
+    </script>
+
+    <!-- Transition animations -->
+    <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('is-loading');
+            setTimeout(function() {
+                document.body.classList.remove('is-loading');
+            }, 0);
+        });
     </script>
 </body>
 </html>
