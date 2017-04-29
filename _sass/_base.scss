@@ -5,8 +5,10 @@ html, body {
 }
 
 body {
-  padding-bottom: 48px;
   padding-top: 64px;
+  padding-bottom: 200px;
+  min-height: 100vh;
+  position: relative;
 }
 
 h1,h2,h3,h4,h5,h6 {
