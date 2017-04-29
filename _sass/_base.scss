@@ -1,20 +1,24 @@
+html, body {
+  font-size: 100%;
+  background: $c-background;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  font-family: $font-family;
-  //background: $background-color;
-  background-color: $background-color;
-  //background-image: url(https://static.pexels.com/photos/1486/wood-pattern-ground-parquet-floor.jpg);
-  background-size: cover;
-  color: $text-color;
+  padding-top: 64px;
+  padding-bottom: 200px;
+  min-height: 100vh;
+  position: relative;
 }
 
-a {
-  color: $link-color;
+h1,h2,h3,h4,h5,h6 {
+  margin-top: $spacing / 2 * 3;
+  margin-bottom: $spacing / 3;
 }
 
-a:hover, a:focus {
-  border-bottom: 1px solid $link-color;
-}
-
-.site-footer, .site-content {
-  padding: $spacer;
+p {
+  line-height: 1.5em;
+  margin-top: $spacing / 3;
+  margin-bottom: $spacing / 3;
+  color: $c-text-light-gray;
 }

@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zach Barnes
+title: Zach Barnes | Portfolio
+author: Zach Barnes
 email: Zacharias3690@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Zacharias3690
 github_username:  Zacharias3690
+linkedin_username: zachbarnes
 
 # Build settings
 markdown: kramdown
@@ -32,3 +34,21 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+navigation:
+  - text: Home
+    url: /
+  - text: About me
+    url: /about/
+  - text: Blog
+    url: /blog/
+  - text: Projects
+    url: /projects/
+projects:
+  - name: Thread
+    url: https://github.com/Zacharias3690/Thread
+    image: /assets/images/thread.png
+    alt: Thread Logo
+  - name: Vuex Action Logger
+    url: https://github.com/Zacharias3690/vuex-action-logger
+  - name: Portfolio
+    url: https://github.com/Zacharias3690/Portfolio

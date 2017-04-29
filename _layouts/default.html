@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <div class="frame">
-      <div class="frame__content">
-        {% include header.html %}
+<body>
+    {% include header.html %}
+    {% include social.html %}
 
-        <main class="site-content">
-          {{content}}
-        </main>
+    {{ content }}
 
-        {% include footer.html %}
-      </div>
-    </div>
-  </body>
+    {% include footer.html %}
+    <script>
+        var siteNav = document.querySelector('.site-nav');
 
+        if(siteNav) {
+            window.addEventListener('scroll', function() {
+               if(document.body.scrollTop > 0) {
+                   siteNav.classList.add('site-nav--scrolled');
+               } else {
+                   siteNav.classList.remove('site-nav--scrolled');
+               }
+            });
+        }
+    </script>
+</body>
 </html>

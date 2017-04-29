@@ -1,9 +1,0 @@
-@mixin linear-gradient($from, $from-percent, $to, $to-percent) {
-  background-color: $from;
-  background-image: linear-gradient($from $from-percent, $to $to-percent);
-}
-
-@mixin radial-gradient($from, $to) {
-  background-color: $from;
-  background-image: radial-gradient($from, $to);
-}

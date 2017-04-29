@@ -1,0 +1,16 @@
+.button {
+  display: inline-block;
+  min-width: 36px;
+  padding: $spacing / 2 $spacing;
+
+  border-radius: 2px;
+  border: 1px solid $c-secondary;
+  color: $c-secondary;
+
+  transition: background 200ms $ease-out, color 200ms $ease-out;
+
+  &:hover, &:focus {
+    background: $c-secondary;
+    color: $c-text-white;
+  }
+}
