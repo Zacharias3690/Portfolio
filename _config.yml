@@ -46,7 +46,7 @@ navigation:
 projects:
   - name: Thread
     url: https://github.com/Zacharias3690/Thread
-    image: /assets/images/blah.png
+    image: /assets/images/thread.png
     alt: Thread Logo
   - name: Vuex Action Logger
     url: https://github.com/Zacharias3690/vuex-action-logger
