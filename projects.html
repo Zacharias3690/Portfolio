@@ -1,0 +1,26 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<div>
+    <ul class="project-list">
+        {% for project in site.projects %}
+        <li class="project">
+            <a href="{{project.url}}">
+                <div class="project__media {% if project.image %} project__media--image {% endif %}">
+                {% if project.image %}
+                    <img src="{{project.image}}" alt="{{project.alt}}">
+                {% else %}
+                    <span>
+                        {{ project.name | uppercase | slice: 0 }}
+                    </span>
+                {% endif %}
+                </div>
+                <p class="project__name">{{ project.name }}</p>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
