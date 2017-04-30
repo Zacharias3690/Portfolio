@@ -23,6 +23,7 @@ url: "http://ztbarnes.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: Zacharias3690
 github_username:  Zacharias3690
 linkedin_username: zachbarnes
+google_analytics: UA-59781543-2
 
 # Build settings
 markdown: kramdown
