@@ -36,8 +36,8 @@ exclude:
 navigation:
   - text: Home
     url: /
-  - text: About me
-    url: /about/
+  - text: Resume
+    url: /resume/
   - text: Blog
     url: /blog/
   - text: Projects

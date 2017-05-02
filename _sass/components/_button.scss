@@ -2,6 +2,8 @@
   display: inline-block;
   min-width: 36px;
   padding: $spacing / 2 $spacing;
+  margin-top: $spacing / 2;
+  margin-bottom: $spacing / 2;
 
   border-radius: 2px;
   border: 1px solid $c-secondary;

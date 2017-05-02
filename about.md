@@ -1,15 +1,10 @@
 ---
 layout: page
-title: About me
-permalink: /about/
+title: Resume
+permalink: /resume/
 ---
 
 <a href="/assets/download/Zachary_Barnes_Resume.pdf" target="_blank" class="button">Download my resume here</a>
-
-## A Little Bit About Me
-My name is Zach Barnes. I have a ~~obesssion~~ passion for coffee and food. I'm a front end web developer currently based in Charlotte. 
-I thrive architecting and building UI frameworks. I enjoy the back and forth between design and development,
-and the ability to make a designers creations come to life.
 
 ## Experience
 
