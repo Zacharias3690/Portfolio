@@ -54,3 +54,9 @@ projects:
     url: https://github.com/Zacharias3690/Portfolio
   - name: TC-Grid
     url: https://github.com/ThirdCornerLLC/tc-grid
+blogs:
+  - name: My First Portfolio Design as a Developer
+    description: Every developer who has attempted to fill a blank screen will tell you, it’s hard. I’ve spent years telling designers no, suggesting changes, and modifying existing designs, but coming up with something all by myself was one of the hardest tasks I’ve undergone.
+    url: https://medium.com/@zacharias3690/my-first-portfolio-design-as-a-developer-8a183877eee5
+    image: https://cdn-images-1.medium.com/max/256/1*Cszbi5pVwjfvvQhfzUSaZg.png
+    alt: Portfolio image

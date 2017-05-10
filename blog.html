@@ -1,0 +1,30 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div>
+    <ul class="blog-list">
+        {% for blog in site.blogs limit: 3 %}
+        <li class="blog">
+            <a href="{{blog.url}}">
+                <div class="blog__media {% if blog.image %} blog__media--image {% endif %}">
+                    {% if blog.image %}
+                    <img src="{{blog.image}}"
+                         alt="{{blog.alt}}">
+                    {% else %}
+                        <span>
+                        {{ blog.name | uppercase | slice: 0 }}
+                        </span>
+                    {% endif %}
+                </div>
+                <div class="blog__text">
+                    <h3 class="blog__title">{{ blog.name }}</h3>
+                    <p class="blog__description u-text-small">{{ blog.description }}</p>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
