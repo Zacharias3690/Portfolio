@@ -8,7 +8,7 @@ permalink: /projects/
     <ul class="project-list">
         {% for project in site.projects %}
         <li class="project">
-            <a href="{{project.url}}">
+            <a href="{{project.url}}" target="_blank">
                 <div class="project__media {% if project.image %} project__media--image {% endif %}">
                 {% if project.image %}
                     <img src="{{project.image}}" alt="{{project.alt}}">
