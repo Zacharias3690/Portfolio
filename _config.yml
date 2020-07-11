@@ -48,6 +48,8 @@ projects:
     url: https://github.com/Zacharias3690/Thread
     image: /assets/images/thread.png
     alt: Thread Logo
+  - name: King's Cup
+    url: https://github.com/Zacharias3690/KingsCup
   - name: Vuex Action Logger
     url: https://github.com/Zacharias3690/vuex-action-logger
   - name: Portfolio
