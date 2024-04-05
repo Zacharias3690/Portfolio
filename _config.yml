@@ -44,6 +44,10 @@ navigation:
   - text: Projects
     url: /projects/
 projects:
+  - name: Skip
+    url: https://www.skip.dating/
+    image: /assets/images/skip_logo.png
+    alt: Skip Logo
   - name: Thread
     url: https://github.com/Zacharias3690/Thread
     image: /assets/images/thread.png
