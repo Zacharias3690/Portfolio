@@ -8,9 +8,20 @@ permalink: /resume/
 
 ## Experience
 
+### Principal Software Engineer - Indeed
+<sup><sub>Austin, TX</sub></sup> |
+<sup><sub>March 2020 - Present</sub></sup>
+
+- Led the development of the Hiring Events Employer platform, enabling employers to self serve the creation of hiring events.
+- Architected the analytics platform for the Hiring Events team, processing billions of rows of raw data into efficient analytics tables and indexes.
+- Led the integration of Hiring Events with the Indeed ecosystem, ensuring a seamless experience for employers and expanding reach.
+- Spearheaded a state management overhaul for the Hiring Events platform, replacing outdated technology with a streamlined process. This reduced code complexity and improved maintainability, mitigating bugs.
+- Transformed the front-end developer interview process by revamping interview questions, training new interviewers, and streamlining procedures. This improved the candidate experience and hiring efficiency.
+- Collaborated with leadership teams to define project scope and prioritize work, effectively managing teams of 5-10 developers.
+
 ### Senior Full Stack Developer - Infocyte
 <sup><sub>Austin, TX</sub></sup> |
-<sup><sub>June 2017 - Present</sub></sup>
+<sup><sub>June 2017 - March 2020</sub></sup>
 
 Work remotely with a small team of developers to design and develop a web platform for users to manage cybersecurity
 data gathered with custom software.
@@ -75,3 +86,6 @@ University of Texas at Dallas - Dallas, TX
 - PostgreSQL
 - C#
 - Java
+- DBT
+- AWS
+- Datalake
