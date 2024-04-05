@@ -12,6 +12,8 @@ permalink: /resume/
 <sup><sub>Austin, TX</sub></sup> |
 <sup><sub>March 2020 - Present</sub></sup>
 
+Work with multiple medium-sized teams of developers, working across a range of technologies to architect, develop, and maintain a self service platform for Employers to create hiring events.
+
 \- Led the development of the Hiring Events Employer platform, enabling employers to self serve the creation of hiring events.
 
 \- Architected the analytics platform for the Hiring Events team, processing billions of rows of raw data into efficient analytics tables and indexes.
