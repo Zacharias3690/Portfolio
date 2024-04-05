@@ -8,6 +8,12 @@ permalink: /resume/
 
 ## Experience
 
+### Chief Technology Officer - Skip
+<sup><sub>Austin, TX</sub></sup> |
+<sup><sub>June 2022 - Present</sub></sup>
+
+Architected and developed a mobile app and backend system using Fluttter, Firebase, and Google Cloud garnering 100,000 downloads supporting 30,000 regular users.  
+
 ### Principal Software Engineer - Indeed
 <sup><sub>Austin, TX</sub></sup> |
 <sup><sub>March 2020 - Present</sub></sup>
@@ -96,3 +102,6 @@ University of Texas at Dallas - Dallas, TX
 - DBT
 - AWS
 - Datalake
+- Flutter
+- Firebase
+- Google Cloud
