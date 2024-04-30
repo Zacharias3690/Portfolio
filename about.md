@@ -10,7 +10,7 @@ permalink: /resume/
 
 ### Chief Technology Officer - Skip
 <sup><sub>Austin, TX</sub></sup> |
-<sup><sub>June 2022 - Present</sub></sup>
+<sup><sub>June 2022 - Apr 2024</sub></sup>
 
 Architected and developed a mobile app and backend system using Fluttter, Firebase, and Google Cloud garnering 100,000 downloads supporting 30,000 regular users.  
 
