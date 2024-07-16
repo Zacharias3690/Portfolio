@@ -8,12 +8,6 @@ permalink: /resume/
 
 ## Experience
 
-### Chief Technology Officer - Skip
-<sup><sub>Austin, TX</sub></sup> |
-<sup><sub>June 2022 - Apr 2024</sub></sup>
-
-Architected and developed a mobile app and backend system using Fluttter, Firebase, and Google Cloud garnering 100,000 downloads supporting 30,000 regular users.  
-
 ### Principal Software Engineer - Indeed
 <sup><sub>Austin, TX</sub></sup> |
 <sup><sub>March 2020 - Present</sub></sup>
@@ -31,6 +25,18 @@ Work with multiple medium-sized teams of developers, working across a range of t
 \- Transformed the front-end developer interview process by revamping interview questions, training new interviewers, and streamlining procedures. This improved the candidate experience and hiring efficiency.
 
 \- Collaborated with leadership teams to define project scope and prioritize work, effectively managing teams of 5-10 developers.
+
+### Chief Technology Officer - Skip
+<sup><sub>Austin, TX</sub></sup> |
+<sup><sub>June 2022 - Apr 2024</sub></sup>
+
+\- Led the development and architecture of a mobile app and backend system using Flutter, Firebase, and Google Cloud. The app achieved 100,000 downloads and supported 30,000 active users.
+
+\- Oversaw a successful nationwide launch. Inherited the app and completely revamped both the front-end and back-end to handle the high volume of users associated with the national rollout.
+
+\- Built and managed a high-performing engineering team. Successfully interviewed, hired, and led a small team of engineers to support the app's growth.
+
+\- Collaborated with the founder to define the app's technical roadmap, setting both short-term and long-term strategies.
 
 ### Senior Full Stack Developer - Infocyte
 <sup><sub>Austin, TX</sub></sup> |
